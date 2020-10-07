@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Productos</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <div class="logo">
+      <img src="https://img.freepik.com/vector-gratis/lindo-bento-lonchera-japonesa-comida-divertidos-dibujos-animados-ilustracion-colorida-isometrica_198278-434.jpg?size=338&ext=jpg" alt="logo">
+    </div>
+    <nav class="main-nav">
+      <a href="/">HOME</a>
+      <a href="/products">PRODUCTOS</a>
+      <a href="/about">NOSOTROS</a>
+    </nav>
+    <section class="product-details">
+      <article class="product-details__image">
+         <img src="/images/<%= producto_encontrado.image %>" alt="bento">
+      </article>
+      <article class="product-details__info">
+         <h2 class="info__title">Box-name:<%= producto_encontrado.name %></h2>
+         <h3 class="info__price">Box-price:<%= producto_encontrado.price %> </h3>
+      </article>
+    </section>
+  </body>
+</html>

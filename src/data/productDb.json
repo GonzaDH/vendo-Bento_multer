@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Pikachu-Box",
+    "price": "1100",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, totam dignissimos! Blanditiis, provident! Rem voluptatibus aperiam quasi necessitatibus sit nulla fugit, asperiores accusantium magni tempora, dolor perspiciatis ex quisquam vitae!",
+    "image": "bento-pikachu.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Salchicha-Box",
+    "price": "8900",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, totam dignissimos! Blanditiis, provident! Rem voluptatibus aperiam quasi necessitatibus sit nulla fugit, asperiores accusantium magni tempora, dolor perspiciatis ex quisquam vitae!",
+    "image": "bento-salchi.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Osos-Box",
+    "price": "1300",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, totam dignissimos! Blanditiis, provident! Rem voluptatibus aperiam quasi necessitatibus sit nulla fugit, asperiores accusantium magni tempora, dolor perspiciatis ex quisquam vitae!",
+    "image": "bento-osos.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Deluxe",
+    "price": "2300",
+    "description": "Lo mejor!",
+    "image": "image-1601578660513.jpg"
+  }
+]
