@@ -1,0 +1,14 @@
+[
+ {
+  "email": "example@example.com",
+  "password": "example123"
+ },
+ {
+  "email": "carol@digitalhouse.com",
+  "password": "$2a$10$.SxxCJSbhtvwB4rLwJL3C.7lmos/0hUMu2wT7kYNrQN.8.Okkb9EG"
+ },
+ {
+  "email": "gonza@dh.com",
+  "password": "$2a$10$fnXHhRVpvonjopz/Mj9TSuixhsK5rIY3tSXGKTctvbeEdAMnPDgNC"
+ }
+]

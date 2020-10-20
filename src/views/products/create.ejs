@@ -15,16 +15,23 @@
       <a href="/products">PRODUCTOS</a>
       <a href="/about">NOSOTROS</a>
     </nav>
-   <section class="forms__container">
-      <form action="/products/store" method="POST" enctype="multipart/form-data">
+    <section class="forms__container">
+       <form action="/products/store" method="POST" enctype="multipart/form-data">
+         <div style="width: 500px;">
+            <% if (typeof errors != "undefined") { %>
+             <% errors.forEach(error => { %>
+              <p><%= error.msg %></p>
+             <% }) %>
+            <% } %>
+         </div>
          <label for=""> Nombre:</label> 
-         <input type="text" name="name">
+         <input type="text" placeholder="Gonza" name="name" value="<%= typeof old != "undefined" ? old.name : "" %>">
          
          <label for="">Precio:</label>
-         <input type="number" name="price">
+         <input type="number" placeholder="10" name="price" value="<%= typeof old != "undefined" ? old.price : "" %>">
          
-         <label for="">Dscripcion:</label> 
-         <textarea name="description" id="" cols="30" rows="5"></textarea>
+         <label for="">Descripcion:</label> 
+         <textarea name="description" id="" placeholder="Pone una descripcion acá" cols="30" rows="5"><%= typeof old != "undefined" ? old.description : "" %></textarea>
          
          <label for="">Imagen:</label>   
          <input type="file" name="image" id="" multiple>

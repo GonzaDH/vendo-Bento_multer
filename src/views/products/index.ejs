@@ -12,6 +12,21 @@
       <a href="/">HOME</a>
       <a href="/products">PRODUCTOS</a>
       <a href="/about">NOSOTROS</a>
+
+      <% if (usuario) { %>
+
+        <a href="/logout"><%= usuario %> </a>
+        <form action="/logout" method="POST">
+          <button type="submit">Logout</button>
+        </form>
+
+      <% } else { %>   
+      
+        <a href="/register">Register</a>
+        <a href="/login">Log In</a>
+
+      <% } %>
+
     </nav>
     <section class="products-container">
       <% productos.forEach(product => { %>
